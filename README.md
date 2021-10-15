@@ -4,13 +4,17 @@
 
 ## 功能介绍
 
-### 智能代码补全
+### 代码智能补全
 
 基于世界领先的深度学习模型，为你提供智能、准确的行级代码补全，让编码如行云流水般自然和高效。代码补全完全运行在本地，你可以在任何情况下无忧使用。
 
+[了解更多](https://github.com/alibaba-cloud-toolkit/cosy/wiki/%E3%80%90%E4%BB%A3%E7%A0%81%E6%99%BA%E8%83%BD%E8%A1%A5%E5%85%A8%E3%80%91%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)
+
 ### 代码示例搜索
 
-提供多关键词的代码示例片段搜索功能，让你在面对不熟悉的功能模块时，无需来回跳转页面，在IDE内即可参考海量高质量的开源代码示例，为你打造沉浸式编码体验。
+提供API代码示例搜索功能，让你在面对不熟悉的API时，无需跳出到浏览器中，在IDE内即可参考海量高质量的开源API代码示例，为你打造沉浸式编码体验。
+
+[了解更多](https://github.com/alibaba-cloud-toolkit/cosy/wiki/%E3%80%90%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B%E6%90%9C%E7%B4%A2%E3%80%91%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)
 
 ## 产品特性
 
@@ -32,7 +36,7 @@
 
 ## 快速开始
 
-[在IntelliJ IDEA中安装和配置Alibaba Cloud Coding AI Assistant](https://github.com/alibaba-cloud-toolkit/cosy/wiki/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)。
+[在IntelliJ IDEA中安装和配置插件](https://github.com/alibaba-cloud-toolkit/cosy/wiki/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)。
 
 ### 支持语言
 
