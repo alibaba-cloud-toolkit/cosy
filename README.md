@@ -1,4 +1,4 @@
-# Alibaba Cloud AI Coding Assistant
+# [Alibaba Cloud AI Coding Assistant](https://developer.aliyun.com/tool/cosy)
 
 阿里云智能编码插件（Alibaba Cloud AI Coding Assistant）是一款AI编程助手，它提供代码智能补全和IDE内的代码示例搜索能力，帮助你更快更高效地写出高质量代码。
 
