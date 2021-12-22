@@ -1,4 +1,4 @@
-![logo](xxx)
+![logo](media/logo.svg)
 
 # Alibaba Cloud AI Coding Assistant<small>Cosy</small>
 

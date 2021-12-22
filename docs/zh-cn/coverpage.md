@@ -1,4 +1,4 @@
-![logo](xxx)
+![logo](media/logo.svg)
 
 # 阿里云智能编码插件<small>Cosy</small>
 
