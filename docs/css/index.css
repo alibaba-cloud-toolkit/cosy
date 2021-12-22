@@ -2,3 +2,8 @@ img[alt=logo] {
     width: 128px; 
     height: 128px;
 }
+
+img[alt="Cosy Docs"] { 
+    width: 64px; 
+    height: 64px;
+}
