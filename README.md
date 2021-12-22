@@ -45,7 +45,7 @@
 ## 系统要求
 
 1. Windows 10/Mac OS/Linux
-2. IDEA IntelliJ 2019.2 +
+2. IDEA IntelliJ 2020.1 +
 
 ## 联系我们
 
