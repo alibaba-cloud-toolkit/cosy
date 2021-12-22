@@ -50,3 +50,60 @@
 ## 联系我们
 
 如果在使用阿里云智能编程插件时遇到问题或有任何建议，欢迎在Issues中向我们反馈！
+
+
+# Alibaba Cloud AI Coding Assistant
+
+Alibaba Cloud AI Coding Assistant (Cosy) is an AI assistant which helps you write better code faster. 
+
+## Introduction
+
+### AI-Assisted Code Completion
+
+Alibaba Cloud AI Coding Assistant (Cosy) provides full-line code completion powered by the world's most advanced machine learning model which runs totally on your own device. 
+
+### Immersed Code Search 
+
+Cosy supports open-source code snippet and API usage search, code document search, provides you real-time documentation lookup in your IDE, creates immersed development experience for you.
+
+
+## Features
+
+### Boost your productivity
+
+Cosy learns from billions of lines of high-quality and open-source code with permitted license to create the powerful machine learning model which helps your write better code with minimal keystrokes.
+
+### Immersed Development
+
+Open source code snippet and document search help you find what you need just in your IDE, provides your immersed development experience. 
+
+### Lightweight
+
+All features are here out of the box, Cosy can effectively complete your code and provide helpful code snippets immediately with low resource consumption.
+
+
+## Privacy & Compliance
+
+Cosy's powerful deep completion model runs totally on your machine, your can even use it offline. Cosy will never share or upload your code or your personal information. Your privacy is always our priority. 
+
+
+## Get Started
+
+### Install
+
+1. Search Alibaba Cloud AI Code Assistant in [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/17809-alibaba-cloud-ai-coding-assistant)
+2. Click on the **install** button
+3. **Restart** IDE, wait for the plugin ready
+
+### Supported Languages
+
+Java, other languages are upcoming
+
+## Requirements
+
+1. Windows 10/Mac OS/Linux
+2. IDEA IntelliJ 2020.1 +
+
+## Contact Us
+
+If you have any problems using Alibaba Cloud AI Coding Assistant, please file an issue at [issue page](
