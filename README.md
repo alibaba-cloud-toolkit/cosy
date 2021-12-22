@@ -106,4 +106,4 @@ Java, other languages are upcoming
 
 ## Contact Us
 
-If you have any problems using Alibaba Cloud AI Coding Assistant, please file an issue at [issue page](
+If you have any problems using Alibaba Cloud AI Coding Assistant, please file an issue at [issue page](https://github.com/alibaba-cloud-toolkit/cosy/issues)
