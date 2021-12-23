@@ -11,7 +11,19 @@
 
 <!-- tabs:start -->
 
-#### **插件市场安装（推荐）**
+#### **直接安装**
+
+注意事项：
+* 至少有一个IntelliJ IDEA已经启动
+* 如果安装失败，请尝试重启IDE，或通过插件市场手动安装
+
+<span id='intellij-plugin-button'>数据加载中...</span>
+<noscript>
+抱歉，你的浏览器不支持直接安装，请尝试通过插件市场手动安装。
+</noscript>
+
+
+#### **插件市场安装**
 
 1. 在IntelliJ IDEA顶部菜单栏中选择**IntelliJ IDEA** > **Preferences**。
 2. 在**Preferences**对话框的左侧导航栏中单击**Plugins**。

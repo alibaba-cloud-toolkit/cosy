@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Cosy Documents</title>
+  <title>阿里云智能编码插件文档</title>
   <link rel="icon" href="https://img.alicdn.com/imgextra/i1/O1CN01lIZOyX1NwsHO1gUHE_!!6000000001635-55-tps-45-45.svg" type="image/x-icon">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="keywords" content="cosy,智能编码,代码补全,代码搜索,代码示例搜索,代码文档搜索,代码生成,code completion,code search,code sample search,copilot">
@@ -26,6 +26,18 @@
       homepage: '/zh-cn/README.md',
       alias: { '^/([^/]+)$': '/zh-cn/$1' },
       auto2top: true,
+      executeScript: true,
+      plugins: [
+        function (hook, vm) {
+
+          hook.doneEach(function() {
+            if (window.location.hash == '#/zh-cn/guide/quickstart') {
+              console.log("try install cosy");
+              MarketplaceWidget.setupMarketplaceWidget('install', 17809, "#intellij-plugin-button");
+            }
+          });
+        }
+      ]
     }
 
     window.addEventListener('hashchange', hashHandler, false);
@@ -37,5 +49,7 @@
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script> -->
+  <script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
 </body>
 </html>
