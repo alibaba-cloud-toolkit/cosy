@@ -54,4 +54,5 @@
 
 
 # 使用示例
-![search](../../media/cosy-search-demo.gif)
+
+[search](https://cosy-aliyun.oss-cn-hangzhou.aliyuncs.com/code-search-demo.mp4 ':include :size=500')

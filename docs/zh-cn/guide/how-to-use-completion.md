@@ -28,4 +28,5 @@
 - 目前暂时仅支持Java，后续会扩展JavaScript、Python等语言
 
 ## 使用示例
-![completion](../../media/cosy-completion-demo.gif)
+
+[filename](https://cosy-aliyun.oss-cn-hangzhou.aliyuncs.com/cosy-completion-demo.mp4 ':include :size=500')

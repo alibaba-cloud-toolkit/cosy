@@ -60,6 +60,10 @@ img[alt="Cosy Documents"] {
     color: var(--theme-color,#ff5c00);
 }
 
+.sidebar li>p.active>a {
+    color: var(--theme-color,#ff5c00);
+}
+
 .sidebar-toggle span {
     background-color: var(--theme-color,#ff5c00);
 }
@@ -71,4 +75,12 @@ img[alt="Cosy Documents"] {
 
 :root {
     --docsifytabs-tab-highlight-color: #ff5c00;
+}
+
+.markdown-section video {
+    width: 100%;
+}
+
+.docsify-tabs__tab {
+    cursor: pointer;
 }
