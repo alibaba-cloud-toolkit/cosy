@@ -18,7 +18,7 @@
 
 ## 前提条件
 
-- 已在IntelliJ IDEA中安装和配置Alibaba Cloud AI Coding Assistant，请参见[如何安装](https://github.com/alibaba-cloud-toolkit/cosy/wiki/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)。
+- 已在IntelliJ IDEA中安装和配置Alibaba Cloud AI Coding Assistant，请参见[如何安装](zh-cn/guide/quickstart.md)。
 - 系统要求：Windows 10/Mac OS/Linux
 
 - 安装JDK8以上
@@ -28,4 +28,4 @@
 - 目前暂时仅支持Java，后续会扩展JavaScript、Python等语言
 
 ## 使用示例
-![completion](https://github.com/alibaba-cloud-toolkit/cosy/blob/main/cosy-completion-demo.gif?raw=true)
+![completion](../../media/cosy-completion-demo.gif)

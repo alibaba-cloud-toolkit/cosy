@@ -5,9 +5,8 @@
 
 
 你可以通过点击右侧菜单栏中的「代码示例搜索」唤起搜索窗口进行主动搜索，也可以在编码过程中通过鼠标右键选中当前类/接口/方法即可一键搜索其示例片段。
-<p align="center">
-<img src="https://img.alicdn.com/imgextra/i2/O1CN01LkVxJ71IktqQtmjbh_!!6000000000932-2-tps-852-1022.png" alt="example" width="500">
-</p>
+
+![search_menu_example](https://img.alicdn.com/imgextra/i2/O1CN01LkVxJ71IktqQtmjbh_!!6000000000932-2-tps-852-1022.png ':size=300')
 
 ## 支持形式
 
@@ -32,9 +31,8 @@
   - 如：XSSFWorkbook.create能搜出以其为前缀的XSSFWorkbook.createSheet、XSSFWorkbook.createFont、XSSFWorkbook.createCellStyle等
 
 - 包名+类名/接口名+方法名，包名+枚举名+属性名
-<p align="center">
-<img src="https://img.alicdn.com/imgextra/i3/O1CN01sV74ML1uRcZXp6PRe_!!6000000006034-2-tps-1258-1614.png" alt="example" width="500">
-</p>
+
+![search_example](https://img.alicdn.com/imgextra/i3/O1CN01sV74ML1uRcZXp6PRe_!!6000000006034-2-tps-1258-1614.png ':size=500')
 
 ## 联合搜索
 - API之间支持联合搜索
@@ -42,7 +40,7 @@
 
 ## 前提条件
 
-- 已在IntelliJ IDEA中安装和配置Alibaba Cloud AI Coding Assistant，[如何安装](https://github.com/alibaba-cloud-toolkit/cosy/wiki/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)。
+- 已在IntelliJ IDEA中安装和配置Alibaba Cloud AI Coding Assistant，[如何安装](zh-cn/guide/quickstart.md)。
 - 系统要求：Windows 10/Mac OS/Linux
 
 - 安装JDK8以上
@@ -56,6 +54,4 @@
 
 
 # 使用示例
-<p align="center">
-<img src="https://github.com/alibaba-cloud-toolkit/cosy/blob/main/cosy-search-demo.gif" alt="demo">
-</p>
+![search](../../media/cosy-search-demo.gif)

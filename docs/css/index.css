@@ -3,7 +3,72 @@ img[alt=logo] {
     height: 128px;
 }
 
-img[alt="Cosy Docs"] { 
+img[alt="Cosy Documents"] { 
     width: 64px; 
     height: 64px;
+}
+
+/* Change mask color */
+.mask {
+    background: #FFF;
+    opacity: .5 !IMPORTANT;
+}
+
+/* Disable mask */
+.mask {
+    display: none;
+}
+
+
+/* coverpage style */
+#btn_github {
+    border: 1px solid var(--theme-color,#ff5c00) !important;
+    color: var(--theme-color,#ff5c00) !important;
+}
+
+#btn_quickstart {
+    background-image: linear-gradient(90deg,#ff7b00,#ff5c00) !important;
+    border: 0px;
+}
+
+#coverpage_title a > span {
+    color: #fff;
+    font-weight: 900;
+}
+
+.cover-main blockquote {
+    color: #fff;
+    font-weight: 400;
+}
+
+.cover-main ul li {
+    color: #fff;
+    font-weight: 400;
+}
+
+.github-corner svg {
+    fill: var(--theme-color,#ff5c00);
+}
+
+/* navbar style */
+.app-nav a.active, .app-nav a:hover {
+    color: var(--theme-color,#ff5c00);
+}
+
+/* sidebar style */
+.sidebar ul li.active>a {
+    color: var(--theme-color,#ff5c00);
+}
+
+.sidebar-toggle span {
+    background-color: var(--theme-color,#ff5c00);
+}
+
+/* markdown style */
+.markdown-section a {
+    color: var(--theme-color,#ff5c00);
+}
+
+:root {
+    --docsifytabs-tab-highlight-color: #ff5c00;
 }
