@@ -19,6 +19,17 @@ img[alt="Cosy Documents"] {
     display: none;
 }
 
+.progress {
+    background-color: var(--theme-color,#ff5c00) !important;
+}
+
+.gitter-open-chat-button {
+    background-color: #ff5c00 !important;
+}
+
+.gitter-open-chat-button:focus, .gitter-open-chat-button:hover {
+    background-color: #A63C00 !important;
+}
 
 /* coverpage style */
 #btn_github {
