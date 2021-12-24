@@ -35,11 +35,11 @@
 
 #### **离线包安装**
 
-1. 复制链接 http://toolkit.aliyun.com/idea/cosy-intellij-0.9.5-beta.zip 至新窗口页即可下载，或通过[Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases/tag/0.9.5-beta)下载。
+1. 复制链接 [cosy-intellij-0.9.5-beta.zip](http://toolkit.aliyun.com/idea/cosy-intellij-0.9.5-beta.zip ':crossorgin') 至新窗口页即可下载，或通过[Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases)下载。
 2. 在IntelliJ IDEA顶部菜单栏中选择**IntelliJ IDEA** > **Preferences**。
 3. 在**Preferences**对话框的左侧导航栏中单击**Plugins**。
-4. 在**Plugins**区域单击**Settings Icon**，再单击**Install Plugin from Disk...**。
-5. 在**Choose Plugin File**对话框中选择步骤1中下载的cosy-intellij-0.9.5-beta.zip，安装完成后，单击**Restart IDE**。
+4. 在**Plugins**区域单击**Settings Icon**，再单击**Install Plugin from Disk**。
+5. 在**Choose Plugin File**对话框中选择步骤1中下载的cosy-intellij-XXX.zip，安装完成后，单击**Restart IDE**。
 ![image](https://img.alicdn.com/imgextra/i3/O1CN01hzRLdp1LACysYVSiN_!!6000000001258-2-tps-1958-616.png)
 
 <!-- tabs:end -->
