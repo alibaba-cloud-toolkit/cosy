@@ -35,7 +35,7 @@
 
 #### **离线包安装**
 
-1. 复制链接 http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip 至新窗口页即可下载，或通过[Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases)下载。
+1. 复制链接 <a href="http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip" download=“download”>http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip</a> 至新窗口页即可下载，或通过[Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases)下载。
 2. 在IntelliJ IDEA顶部菜单栏中选择**IntelliJ IDEA** > **Preferences**。
 3. 在**Preferences**对话框的左侧导航栏中单击**Plugins**。
 4. 在**Plugins**区域单击**Settings Icon**，再单击**Install Plugin from Disk**。
@@ -61,3 +61,41 @@ IntelliJ IDEA重启后，右侧边栏有【代码示例搜索】Tab，或者代�
 # 联系我们
 
 如果在使用阿里云智能编程插件时遇到问题或有任何建议，欢迎在[Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中向我们反馈！
+
+<script>
+function getQueryVariable(target_param){
+    let urlHash = window.location.hash;
+    let index = urlHash.indexOf("?");
+    if (index < 0) {
+        return "";
+    }
+    let query = urlHash.substring(index+1);
+    let vars = query.split("&");
+    for (let i = 0; i < vars.length; i++) {
+        let pair = vars[i].split("=");
+        if(pair[0] == target_param) {
+            return pair[1];
+        }
+    }
+    return "";
+}
+let dataMap = {
+    "direct_install": "直接安装",
+    "market_install": "插件市场安装",
+    "offline_install": "离线包安装",
+};
+let tabValue = getQueryVariable("tab");
+if (tabValue && dataMap.hasOwnProperty(tabValue)) {
+    let tabs = document.querySelectorAll(".docsify-tabs__tab");
+    for (let tab of tabs) {
+        let tabName = tab.getAttribute("data-tab");
+        if (tabName === dataMap[tabValue]) {
+            tab.setAttribute("class", "docsify-tabs__tab docsify-tabs__tab--active");
+        } else {
+            tab.setAttribute("class", "docsify-tabs__tab");
+        }
+    }
+}
+
+
+</script>

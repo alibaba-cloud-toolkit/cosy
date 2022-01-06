@@ -31,8 +31,8 @@
         function (hook, vm) {
 
           hook.doneEach(function() {
-            if (window.location.hash == '#/zh-cn/guide/quickstart') {
-              console.log("try install cosy");
+            if (window.location.hash.indexOf('/guide/quickstart') > 0) {
+              console.log("initialize market install cosy");
               MarketplaceWidget.setupMarketplaceWidget('install', 17809, "#intellij-plugin-button");
             }
           });
