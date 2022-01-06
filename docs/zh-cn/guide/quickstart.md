@@ -39,7 +39,7 @@
 2. 在IntelliJ IDEA顶部菜单栏中选择**IntelliJ IDEA** > **Preferences**。
 3. 在**Preferences**对话框的左侧导航栏中单击**Plugins**。
 4. 在**Plugins**区域单击**Settings Icon**，再单击**Install Plugin from Disk**。
-5. 在**Choose Plugin File**对话框中选择步骤1中下载的cosy-intellij-XXX.zip，安装完成后，单击**Restart IDE**。
+5. 在**Choose Plugin File**对话框中选择步骤1中下载的cosy-intellij-beta-latest.zip，安装完成后，单击**Restart IDE**。
 ![image](https://img.alicdn.com/imgextra/i3/O1CN01hzRLdp1LACysYVSiN_!!6000000001258-2-tps-1958-616.png)
 
 <!-- tabs:end -->
