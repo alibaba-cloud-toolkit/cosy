@@ -31,7 +31,7 @@
 4. 在搜索栏中输入 ***Alibaba Cloud AI Coding Assistant*** 或 ***cosy***
 5. **Search Results**区域会出现 ***Alibaba Cloud AI Coding Assistant*** ，单击**Install**。
 6. 等待下载、安装完成后，单击**Restart IDE**。
-![image](https://img.alicdn.com/imgextra/i2/O1CN01qjwZzO28UHVo3pufL_!!6000000007935-0-tps-2390-1412.jpg)
+![image](https://img.alicdn.com/imgextra/i4/O1CN01jERvSm1ejSAJWWgDC_!!6000000003907-0-tps-2654-1400.jpg)
 
 #### **离线包安装**
 
