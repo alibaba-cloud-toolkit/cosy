@@ -36,7 +36,10 @@
 
 ## 快速开始
 
-[安装IntelliJ IDEA插件](https://github.com/alibaba-cloud-toolkit/cosy/wiki/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)
+[安装IntelliJ IDEA插件](https://alibaba-cloud-toolkit.github.io/cosy/#/zh-cn/guide/quickstart)
+
+[FAQ](https://alibaba-cloud-toolkit.github.io/cosy/#/zh-cn/guide/faq)
+
 
 ### 支持语言
 
