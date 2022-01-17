@@ -11,7 +11,19 @@
 
 <!-- tabs:start -->
 
-#### **插件市场安装（推荐）**
+#### **直接安装**
+
+注意事项：
+* 至少有一个IntelliJ IDEA已经启动
+* 如果安装失败，请尝试重启IDE，或通过插件市场手动安装
+
+<span id='intellij-plugin-button'>数据加载中...</span>
+<noscript>
+抱歉，你的浏览器不支持直接安装，请尝试通过插件市场手动安装。
+</noscript>
+
+
+#### **插件市场安装**
 
 1. 在IntelliJ IDEA顶部菜单栏中选择**IntelliJ IDEA** > **Preferences**。
 2. 在**Preferences**对话框的左侧导航栏中单击**Plugins**。
@@ -19,16 +31,16 @@
 4. 在搜索栏中输入 ***Alibaba Cloud AI Coding Assistant*** 或 ***cosy***
 5. **Search Results**区域会出现 ***Alibaba Cloud AI Coding Assistant*** ，单击**Install**。
 6. 等待下载、安装完成后，单击**Restart IDE**。
-![image](../../media/plugin_marketplace.jpg)
+![image](https://img.alicdn.com/imgextra/i4/O1CN01jERvSm1ejSAJWWgDC_!!6000000003907-0-tps-2654-1400.jpg)
 
 #### **离线包安装**
 
-1. 复制链接 http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip 至新窗口页即可下载，或通过[Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases/)下载。
+1. 复制链接 <a href="https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip" download=“download”>https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip</a> 至新窗口页即可下载，或通过[Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases)下载。
 2. 在IntelliJ IDEA顶部菜单栏中选择**IntelliJ IDEA** > **Preferences**。
 3. 在**Preferences**对话框的左侧导航栏中单击**Plugins**。
-4. 在**Plugins**区域单击**Settings Icon**，再单击**Install Plugin from Disk...**。
-5. 在**Choose Plugin File**对话框中选择步骤1中下载的cosy-intellij-0.9.5-beta.zip，安装完成后，单击**Restart IDE**。
-![image](../../media/local_install.png)
+4. 在**Plugins**区域单击**Settings Icon**，再单击**Install Plugin from Disk**。
+5. 在**Choose Plugin File**对话框中选择步骤1中下载的cosy-intellij-beta-latest.zip，安装完成后，单击**Restart IDE**。
+![image](https://img.alicdn.com/imgextra/i3/O1CN01hzRLdp1LACysYVSiN_!!6000000001258-2-tps-1958-616.png)
 
 <!-- tabs:end -->
 
@@ -49,3 +61,41 @@ IntelliJ IDEA重启后，右侧边栏有【代码示例搜索】Tab，或者代�
 # 联系我们
 
 如果在使用阿里云智能编程插件时遇到问题或有任何建议，欢迎在[Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中向我们反馈！
+
+<script>
+function getQueryVariable(target_param){
+    let urlHash = window.location.hash;
+    let index = urlHash.indexOf("?");
+    if (index < 0) {
+        return "";
+    }
+    let query = urlHash.substring(index+1);
+    let vars = query.split("&");
+    for (let i = 0; i < vars.length; i++) {
+        let pair = vars[i].split("=");
+        if(pair[0] == target_param) {
+            return pair[1];
+        }
+    }
+    return "";
+}
+let dataMap = {
+    "direct_install": "直接安装",
+    "market_install": "插件市场安装",
+    "offline_install": "离线包安装",
+};
+let tabValue = getQueryVariable("tab");
+if (tabValue && dataMap.hasOwnProperty(tabValue)) {
+    let tabs = document.querySelectorAll(".docsify-tabs__tab");
+    for (let tab of tabs) {
+        let tabName = tab.getAttribute("data-tab");
+        if (tabName === dataMap[tabValue]) {
+            tab.setAttribute("class", "docsify-tabs__tab docsify-tabs__tab--active");
+        } else {
+            tab.setAttribute("class", "docsify-tabs__tab");
+        }
+    }
+}
+
+
+</script>

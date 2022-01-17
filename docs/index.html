@@ -14,6 +14,11 @@
 <body>
   <div id="app"></div>
   <script>
+    let locateLang = navigator.systemLanguage; 
+    if (locateLang != 'zh-cn') {
+      locateLang = "en-us";
+    }
+    locateLang = "zh-cn";
     window.$docsify = {
       logo: 'media/logo.svg',
       name: 'Cosy Documents',
@@ -23,8 +28,11 @@
       mergeNavbar: true,
       coverpage: true,
       coverpage: 'coverpage.md',
-      homepage: '/zh-cn/README.md',
-      alias: { '^/([^/]+)$': '/zh-cn/$1' },
+      homepage: `/${locateLang}/README.md`,
+      alias: { 
+        '/([^/]+)': `/${locateLang}/$1`,
+        '/guide/([^/]+)': `/${locateLang}/guide/$1` 
+      },
       auto2top: true,
       executeScript: true,
       plugins: [

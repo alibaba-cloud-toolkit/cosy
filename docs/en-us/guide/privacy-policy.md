@@ -6,11 +6,11 @@
 
 如果你愿意为阿里云智能编码插件的改进提供帮助，可以在IDE启动时点击“允许”进行主动授权（默认不允许），如下图：
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2021/png/2914/1633921728821-88e72c9f-b4fd-4d5c-a0a3-f99df12a280c.png)
+![](https://intranetproxy.alipay.com/skylark/lark/0/2021/png/2914/1633921728821-88e72c9f-b4fd-4d5c-a0a3-f99df12a280c.png  ':size=500')
 
 或者可以打开Preferences，找到Alibaba Cloud AI Coding Assistant设置页，允许或取消授权，如下图：
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2021/png/2914/1633921799588-e4e4a10d-d32e-4955-8674-b35ca2879b71.png)
+![](https://intranetproxy.alipay.com/skylark/lark/0/2021/png/2914/1633921799588-e4e4a10d-d32e-4955-8674-b35ca2879b71.png  ':size=500')
 
 在经过你的授权后，我们会记录以下匿名数据：
 

@@ -1,6 +1,6 @@
-# 阿里云智能编码插件
+# Alibaba Cloud AI Coding Assistant
 
-阿里云智能编码插件（Alibaba Cloud AI Coding Assistant）是一款AI编程助手，它提供代码智能补全和代码示例搜索能力，帮助你更快更高效地写出高质量代码。
+Alibaba Cloud AI Coding Assistant 是一款AI编程助手，它提供代码智能补全和代码示例搜索能力，帮助你更快更高效地写出高质量代码。
 
 ## 功能介绍
 
@@ -8,13 +8,13 @@
 
 基于世界领先的深度学习模型，为你提供智能、准确的行级代码补全，让编码如行云流水般自然和高效。代码补全完全运行在本地，你可以在任何情况下无忧使用。
 
-[了解更多](zh-cn/guide/how-to-use-completion.md)
+[了解更多](en-us/guide/how-to-use-completion.md)
 
 ### 代码示例搜索
 
 提供API代码示例搜索功能，让你在面对不熟悉的API时，无需跳出到浏览器中，在IDE内即可参考海量高质量的开源API代码示例，为你打造沉浸式编码体验。
 
-[了解更多](zh-cn/guide/how-to-use-codesearch.md)
+[了解更多](en-us/guide/how-to-use-codesearch.md)
 
 ## 产品特性
 
@@ -33,11 +33,11 @@
 ## 隐私保护
 
 用户的隐私高于一切。代码智能补全所使用的深度学习模型只在你本地的机器上运行，不会分享或向其他设备上传你的代码或个人信息等数据。即使你的设备处于未联网的状态，也不会影响代码智能补全的正常使用。
-[了解隐私政策](zh-cn/guide/privacy-policy.md)
+[了解隐私政策](en-us/guide/privacy-policy.md)
 
 ## 快速开始
 
-[安装IntelliJ IDEA插件](zh-cn/guide/quickstart.md)
+[安装IntelliJ IDEA插件](en-us/guide/quickstart.md)
 
 ### 支持语言
 
