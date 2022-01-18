@@ -54,6 +54,10 @@ Cosy为开发者提供了API代码示例的查找能力，开发者只需输入A
 
 ## 使用示例
 
-### API代码示例搜索
+### 通过API名称搜索
 
 [code-search-demo.mp4](https://cosy-aliyun.oss-cn-hangzhou.aliyuncs.com/code-search-demo.mp4 ':include :size=500')
+
+### 通过自然语言搜索
+
+[code-search-demo.mp4](https://aliyun-cosy.oss-cn-hangzhou.aliyuncs.com/cosy_search_demo.mp4 ':include :size=500')

@@ -55,6 +55,10 @@ Developers can call up the search tool window by clicking `Code Sample Search` i
 
 ## Demo Video
 
-### API Code Sample Search
+### Search by APIs
 
 [code-search-demo.mp4](https://cosy-aliyun.oss-cn-hangzhou.aliyuncs.com/code-search-demo.mp4 ':include :size=500')
+
+### Search by functional description
+
+[code-search-demo.mp4](https://aliyun-cosy.oss-cn-hangzhou.aliyuncs.com/cosy_search_demo.mp4 ':include :size=500')
