@@ -1,35 +1,40 @@
-# 隐私政策
+# Privacy Policy
 
-欢迎使用阿里云智能编码插件（Alibaba Cloud AI Coding Assistant）。
+Welcome to Alibaba Cloud AI Coding Assistant.
 
-很荣幸阿里云智能编码插件（Alibaba Cloud AI Coding Assistant）能够成为你日常编码的得力助手，帮助你更便捷高效的开发。本信息收集说明仅适用于阿里云为你提供的智能编码插件，不适用于你使用的IDE（Integrated Development Environment ），对该软件的使用请遵守其相应的产品协议及隐私权政策。你的隐私高于一切，在未经授权的情况下，我们不会获取、存储、分享你的代码及个人信息。
+I am honored that the Alibaba Cloud AI Coding Assistant can become your daily coding assistant, helping you develop more conveniently and efficiently.
 
-如果你愿意为阿里云智能编码插件的改进提供帮助，可以在IDE启动时点击“允许”进行主动授权（默认不允许），如下图：
+This information collection instructions only apply to the Alibaba Cloud AI Coding Assistant, not the IDE (Integrated Development Environment) you use, please abide by its corresponding product agreement and privacy policy when using the software. 
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2021/png/2914/1633921728821-88e72c9f-b4fd-4d5c-a0a3-f99df12a280c.png  ':size=500')
+We are committed to protecting your privacy, and we will not obtain, store, or share your code and personal information without authorization.
 
-或者可以打开Preferences，找到Alibaba Cloud AI Coding Assistant设置页，允许或取消授权，如下图：
+If you are willing to help make an improvement of Alibaba Cloud AI Coding Assistant, you can click "Allow" when the IDE starts to perform active authorization (not allowed by default), as shown in the following figure:
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2021/png/2914/1633921799588-e4e4a10d-d32e-4955-8674-b35ca2879b71.png  ':size=500')
+![](https://img.alicdn.com/imgextra/i3/O1CN01e6EoIk1we6ciRD6at_!!6000000006332-2-tps-738-142.png  ':size=500')
 
-在经过你的授权后，我们会记录以下匿名数据：
+Or you can open Preferences, find the Alibaba Cloud AI Coding Assistant settings page, allow or cancel the authorization, as shown below:
 
-* 代码补全的触发次数、采纳次数
-* 代码补全采纳项的排序位置
-* 代码补全采纳项的字符长度
-* 代码补全的平均响应时间
-* 代码示例搜索关键词提示触发事件
-* 代码示例搜索触发事件
-* 代码示例搜索采纳的代码示例排序位置
-* 代码示例搜索代码示例的点击、翻页事件
+![](https://img.alicdn.com/imgextra/i4/O1CN01MuEABZ1R5WdCigR2b_!!6000000002060-2-tps-2002-1438.png  ':size=500')
 
-请注意，以上数据是无法识别特定自然人身份的信息。如果我们将这类非个人信息与其他信息结合用于识别特定自然人身份，或者将其与个人信息结合使用，则在结合使用期间，这类非个人信息将有可能被视为个人信息，除取得你授权或法律法规另有规定外，我们会将该类个人信息做匿名化、去标识化处理。
-我们向你严格保证：以上数据均为你或你所在公司所有，除了完成您的各项任务指示或取得您的授权之外，阿里云智能编码插件无权也不会存储或利用这些数据。为保障您的数据信息安全，我们承诺（包括但不限于以下）：
+With your authorization, we will collect the following anonymous data:
 
-* 未经您允许，我们不会将以上任何数据存储到阿里云或其他任何数据中心。
-* 未经您允许，我们不会将以上任何数据透露给第三方；
-* 我们仅在您授权的范围内使用上述数据。
+* Number of triggers and acceptions of Code Completion candidates
+* The average rank of Code Completion candidates being accepted
+* The average character length of Code Completion candidates being accepted
+* The average response time for Code Completion
+* Code Search keyword prompt events
+* Code Search trigger events
+* The average rank of code snippets being accepted in Code Search
+* Code Search code snippets click and page turn events
 
-如果您对本说明有任何问题、建议或投诉，您可通过[阿里云的工单、建议提交平台](https://connect.aliyun.com/)或客服电话（95187）与我们联系，我们将在15天之内响应您的请求。
+Please note that the above data is information that does not identify a specific natural person. If we combine such kind of statistics with other information to identify a specific natural person, or use it in combination with personal information, such non-personal information may be considered as personal information during the combined usage, unless obtained authorization by you, by laws, or by regulations, we will anonymize and de-identify such personal information. 
 
-阿里云智能编码插件项目组
+We guarantee that the above data are owned by you or your company. Alibaba Cloud AI Coding Assistant has no right to and will not store or utilize these data, except for completing your specific task instructions or obtaining your authorization. In order to protect the security of your data, we promise (including but not limited to the following):
+
+* We will not store any of the above data in Alibaba Cloud or any other data center without your permission.
+* We will not disclose any of the above data to third parties without your permission.
+* We only use the above data to the extent authorized by you.
+
+If you have any questions, suggestions, or complaints about this description, you can contact us through [Alibaba Cloud's work order, suggestion submission platform](https://connect.aliyun.com/), or customer service number (95187), and we will respond to your request within 15 days.
+
+Alibaba Cloud AI Coding Assistant Project Team

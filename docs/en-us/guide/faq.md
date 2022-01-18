@@ -1,14 +1,13 @@
-# 常见问题
+# FAQ
 
-### Q：为什么安装之后没有代码补全提示，也搜索不到内容？
+## Q：Why is there no code completion after installation, and the content cannot be searched?
 
-A：在首次安装插件后，Cosy需要联网下载模型和依赖文件，下载完成之后才可以提供离线代码提示，因此请等待Cosy初始化完毕之后试用。如果IDE底栏中没有“正在更新阿里云智能编码插件Cosy”的提示，那么请重启IDE尝试，一般可以解决。如果仍然没有提示，那么请在https://github.com/alibaba-cloud-toolkit/cosy/issues 反馈给我们，并且附上`~/.cosy/logs/cosy.log`。
+A：After installing the plug-in for the first time, Cosy needs to download the model and dependent files online. After the download is complete, it can provide offline code completion, so please wait for Cosy to be initialized and try it again later. If there is no prompt "Updating Alibaba Cloud AI Coding Assistant" in the bottom column of the IDE, please restart the IDE and try again, which can usually be solved. If it still doesn't work, please report it to us at https://github.com/alibaba-cloud-toolkit/cosy/issues and attach ~/.cosy/logs/cosy.log.
 
+## Q：Why is the plug-in stuck at "Updating Alibaba Cloud AI Coding Assistant"?
 
-### Q：为什么插件卡在“正在更新阿里云智能编码插件Cosy”？
+A：Same as above, please wait patiently for the model download to complete. The model will only be downloaded once, and the code completion function can be used offline after the download is complete.
 
-A：同上，请耐心等待模型下载完成。模型只会下载一次，下载完成后即可离线使用代码智能补全功能。
+## Q：Does the code search function also work offline?
 
-### Q：代码示例搜索功能也可以离线使用吗？
-
-A：代码示例搜索必须在联网的状态下使用。
+A：Code search must be used while your network is connected.

@@ -1,4 +1,4 @@
-# 更新日志
+# Changelog
 
 ## 0.9.6-beta
 * 新增了自然语言搜索功能（再也不用关一大坨StackOverflow页面了

@@ -1,59 +1,60 @@
-# 代码示例搜索
+# Code Search
 
-阿里云智能编码插件（Alibaba Cloud AI Coding Assistant）提供的代码示例搜索功能，让你在面对不熟悉的功能模块时，无需来回跳转页面，在IDE内即可参考海量优质的开源代码示例，为你打造沉浸式编码体验。
+Alibaba Cloud AI Coding Assistant provides a code search function of the API as well as natural language,  so that you can refer to a large number of high-quality open-source code samples in the IDE without switching to browsers when facing unfamiliar functional modules and get an immersive coding experience.
 
-## 前提条件
+## Requirements
 
-- 已在IntelliJ IDEA中安装和配置Alibaba Cloud AI Coding Assistant，[如何安装](zh-cn/guide/quickstart.md)。
-- 系统要求：Windows 10/Mac OS/Linux
+- Alibaba Cloud AI Coding Assistant has been installed and configured in IntelliJ IDEA, see [Install Plug-in](en-us/guide/quickstart.md)。
+- System requirements: Windows 10/Mac OS/Linux
 
-## 通过自然语言搜索
+## Search by functional description
 
-当开发者需要实现不熟悉的功能模块时，通常会通过通用搜索引擎去查找相关的开源方案，但是由于通用搜索引擎提供的结果质量参差不齐，并且无法直接从结果页的标题中快速判断是否是自己需要资料，影响了开发者的查找效率。Cosy为开发者提供了自然语言搜索能力，开发者能通过对功能的文字描述，快速的查找到相关功能的开源实现。
+When developers need to implement unfamiliar functional modules, they usually use general search engines to find relevant open source solutions. However, because the quality of results provided by general search engines is uneven, and it is impossible to quickly judge whether or not from the title of the result page It is because you need information that affects the developer's search efficiency. Cosy provides developers with natural language search capabilities, and developers can quickly find open source implementations of related functions through text descriptions of functions.
 
-- 支持英文自然语言搜索
-  - 在搜索框中输入功能描述，如How to read excel，敲击回车触发，即可搜索到用于 ***读取Excel*** 的代码示例
-  - 在搜索框中输入简短关键词，如oss download file，敲击回车触发，即可搜索到用于 ***OSS下载文件*** 的代码示例
+- Support English function description search
+  - Enter the function description in the search box, such as How to read excel, press Enter, you can search for code examples for ***reading Excel***.
+  - Enter a short keyword in the search box, such as oss download file, press Enter, you can search for the code examples for ***OSS download file***
 
-如果开发者想进一步筛选自然语言搜索的结果，可以通过联合API搜索进行二次筛选，例如：
+If developers want to further filter the results of natural language search, they can perform secondary filtering through joint API search, for example:
 
-- 当开发者想实现”读取Excel“的功能时，开发者可以通过输入”read excel“进行搜索；但是存在很多开源库都能实现该功能，如果开发者想指定使用Apache POI库实现该功能，可以将该库下的某API（如：XSSFWorkbook）追加到搜索条件中，既可搜索出使用了XSSFWorkbook API进行Excel读取的代码示例。
+- When the developer wants to implement the function of "reading Excel", the developer can search by entering "read excel". However, there are many open source libraries that can implement this function. If the developer wants to specify the use of the Apache POI library to implement this function, you can add an API (such as XSSFWorkbook) under the library to the search criteria, then you can search for code examples that use the XSSFWorkbook API to read Excel.
 
-## 通过API名称搜索
+## Search by APIs
 
-当开发者遇到不熟悉的API时，希望查找API相关的使用示例，然而很多API的官方文档都是不完善的，要么仅有Javadoc的简单文字描述，要么只有少量单元测试用例，要么缺少任何示例代码，从而需要开发者花费大量时间去查找API的示例代码。
-Cosy为开发者提供了API代码示例的查找能力，开发者只需输入API名称或通过快捷键触发，就能快速查找到引用了该API的开源代码示例。
+When developers encounter unfamiliar APIs, they want to find API-related usage examples. However, many official API documents are incomplete, either with simple text descriptions in Javadoc, or with only a few unit test cases, or lack of any Sample code, which requires developers to spend a lot of time to find sample code for the API.
 
-### 快捷搜索
+Cosy provides developers with the ability to find API code samples. Developers can quickly find open source code samples that reference the API by simply entering the API name or triggering through shortcut keys.
 
-开发者可以在编码过程中通过鼠标右键选中当前类/接口/方法，然后点击 ***查找代码示例*** 即可一键搜索指定API的代码示例片段。开发者也可以通过快捷键 MacOS `command+shift+s` 或 Windows `ctrl+shift+s` 搜索指定API。
+### Quick search
 
-![search_menu_example](https://img.alicdn.com/imgextra/i2/O1CN01LkVxJ71IktqQtmjbh_!!6000000000932-2-tps-852-1022.png ':size=300')
+Developers can right-click to select the current Class/Interface/Method during the coding process, and then click ***Code Search*** to search for code sample fragments of the specified API with one click. Developers can also search for the specified API through shortcut keys MacOS `command+shift+s` or Windows `ctrl+shift+s` .
 
-### 搜索条件
+![search_menu_example](https://img.alicdn.com/imgextra/i2/O1CN017x5C6w1dxoySqHXU4_!!6000000003803-2-tps-786-1070.png ':size=300')
 
-开发者可以通过点击右侧菜单栏中的 `代码示例搜索` 唤起搜索工具窗，手动输入API名称进行代码示例搜索，支持的API名称格式如下：
+### Search Condition
 
-- 类名/接口名/枚举名
-  - 如：XSSF能搜出以XSSF为前缀的类名XSSFWorkbook、XSSFRow等
-- 包名+类名
-  - 如：org.apache.poi能搜出这个包下的所有类/接口/枚举
-  - 如：org.apache.poi.xssf.usermodel.XSSFWorkbook能准确搜出apache包下的XSSFWorkbook类
-- 方法名
-  - 如：createSh能搜出以createSh为前缀的方法名createSheet、CreateShortcut、createShell等
-- 类名/接口名+方法名，枚举名+属性名
-  - 如：XSSFWorkbook.create能搜出以其为前缀的XSSFWorkbook.createSheet、XSSFWorkbook.createFont、XSSFWorkbook.createCellStyle等
-- 包名+类名/接口名+方法名，包名+枚举名+属性名
+Developers can call up the search tool window by clicking `Code Sample Search` in the menu bar on the right, and manually enter the API name to search for code samples. The supported API name formats are as follows:
 
-![search_example](https://img.alicdn.com/imgextra/i3/O1CN01sV74ML1uRcZXp6PRe_!!6000000006034-2-tps-1258-1614.png ':size=500')
+- Class name/Interface name/Enumeration name
+   - i.e., XSSF can be used for searching class names such as XSSFWorkbook, XSSFRow, etc.
+- Package name + Class name
+   - i.e., org.apache.poi can be used for searching all classes/interfaces/enumerations under this package
+   - org.apache.poi.xssf.usermodel.XSSFWorkbook can accurately search out the XSSFWorkbook class under the apache package
+- Method name
+   - createSh can be used for searching method names prefixed with createSh, such as createSheet, CreateShortcut, etc.
+- class name/Interface name + Method name, Enumeration name + Attribute name
+   - XSSFWorkbook.create can be used for searching XSSFWorkbook.createSheet, XSSFWorkbook.createFont, XSSFWorkbook.createCellStyle, etc. 
+- Package name + Class name/Interface name + Method name, Package name + Enumeration name + Attribute name
+
+![search_example](https://img.alicdn.com/imgextra/i4/O1CN01Az8BWf1JFaP9OzHye_!!6000000000999-2-tps-1096-1382.png ':size=500')
 
 
-## 支持语言
+## Supported languages
 
-- 目前仅支持Java，后续会扩展JavaScript、Python等语言
+- Currently supports Java, more languages versions will be supported soon.
 
-## 使用示例
+## Demo Video
 
-### API代码示例搜索
+### API Code Sample Search
 
 [code-search-demo.mp4](https://cosy-aliyun.oss-cn-hangzhou.aliyuncs.com/code-search-demo.mp4 ':include :size=500')

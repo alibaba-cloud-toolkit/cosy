@@ -1,6 +1,5 @@
-- 入门
-  - [插件介绍](zh-cn/README.md)
-  - [快速开始](zh-cn/guide/quickstart.md)
+- [插件介绍](zh-cn/README.md)
+- [快速开始](zh-cn/guide/quickstart.md)
 
 - 指南
   - [代码智能补全](zh-cn/guide/how-to-use-completion.md)

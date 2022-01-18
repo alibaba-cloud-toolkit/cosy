@@ -1,53 +1,53 @@
 # Alibaba Cloud AI Coding Assistant
 
-Alibaba Cloud AI Coding Assistant 是一款AI编程助手，它提供代码智能补全和代码示例搜索能力，帮助你更快更高效地写出高质量代码。
+Alibaba Cloud AI Coding Assistant is an AI programming assistant that provides intelligent code completion and code search capabilities to help you write high-quality code faster and more efficiently.
 
-## 功能介绍
+## Features
 
-### 代码智能补全
+### Code completion
 
-基于世界领先的深度学习模型，为你提供智能、准确的行级代码补全，让编码如行云流水般自然和高效。代码补全完全运行在本地，你可以在任何情况下无忧使用。
+Based on the world's leading deep learning model, it provides you with intelligent and accurate line-level code completion, making coding naturally and efficiently. Code completion runs completely locally, so you can use it in any situation without any hassle.
 
-[了解更多](en-us/guide/how-to-use-completion.md)
+[Learn more](en-us/guide/how-to-use-completion.md)
 
-### 代码示例搜索
+### Code Search
 
-提供API代码示例搜索功能，让你在面对不熟悉的API时，无需跳出到浏览器中，在IDE内即可参考海量高质量的开源API代码示例，为你打造沉浸式编码体验。
+It provides the API code sample search as well as natural language search functions, so that you can refer to a large number of high-quality open-source API code samples and Q&A samples in the IDE without jumping out of the browser when facing an unfamiliar API or problems, creating an immersive coding experience for you.
 
-[了解更多](en-us/guide/how-to-use-codesearch.md)
+[Learn more](en-us/guide/how-to-use-codesearch.md)
 
-## 产品特性
+## Product Highlights
 
-### 提升编码效率
+### Improve coding efficiency
 
-阿里云智能编码插件所使用的强大的深度学习模型由海量优质且经过许可的开源代码训练而成，其中包含社区沉淀多年的最佳实践和编程范式，可以帮你更快更高效地写出更好的代码。
+The powerful deep learning model used by the Alibaba Cloud AI Coding Assistant is trained from a large amount of high-quality and licensed open source code, which contains the best practices and programming paradigms accumulated by the community for many years, which can help you develop faster and more efficiently.
 
-### 沉浸式开发
+### Immersive Development
 
-阿里云智能编码插件能帮助你在代码编辑器内部搜索代码示例文档，免于页面切换之苦，沉浸在编码的心流之中。
+The Alibaba Cloud AI Coding Assistant can help you search for code inside the IDEr, avoiding the bothering of browser tab switching and immersing yourself in the flow of coding.
 
-### 低资源消耗
+### Low resource consumption
 
-仅需轻量的系统资源消耗，即可享受强大的AI引擎带来的智能编码体验。
+Enjoy the intelligent coding experience brought by the powerful AI engine with comparative light system resource consumption.
 
-## 隐私保护
+## Privacy
 
-用户的隐私高于一切。代码智能补全所使用的深度学习模型只在你本地的机器上运行，不会分享或向其他设备上传你的代码或个人信息等数据。即使你的设备处于未联网的状态，也不会影响代码智能补全的正常使用。
-[了解隐私政策](en-us/guide/privacy-policy.md)
+We are committed to protecting your privacy. The deep learning model used by AI Code Completion only runs on your local machine, and will not share or upload any data such as your code or personal information to other devices. Even if your device is not connected to the Internet, the normal usage of code completion would not be affected. 
+[Learn more about the Privacy Policy](en-us/guide/privacy-policy.md)
 
-## 快速开始
+## Quick Start
 
-[安装IntelliJ IDEA插件](en-us/guide/quickstart.md)
+[Install the IntelliJ IDEA plugin](en-us/guide/quickstart.md)
 
-### 支持语言
+### Supported languages
 
-目前支持Java，更多语言支持中
+Currently supports Java, more languages versions will come soon.
 
-## 系统要求
+## System Requirements
 
 1. Windows 10/Mac OS/Linux
 2. IDEA IntelliJ 2019.2 +
 
-## 联系我们
+## Contact Us
 
-如果在使用阿里云智能编程插件时遇到问题或有任何建议，欢迎在[Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中向我们反馈！
+If you encounter problems or have any suggestions when using the Alibaba Cloud AI Coding Assistant, please give us feedback in [Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)！

@@ -14,11 +14,12 @@
 <body>
   <div id="app"></div>
   <script>
-    let locateLang = navigator.systemLanguage; 
+    let locateLang = (navigator.language || navigator.browserLanguage).toLowerCase(); 
+    console.log("locateLang:" + locateLang);
     if (locateLang != 'zh-cn') {
       locateLang = "en-us";
     }
-    locateLang = "zh-cn";
+    // locateLang = "en-us";
     window.$docsify = {
       logo: 'media/logo.svg',
       name: 'Cosy Documents',
