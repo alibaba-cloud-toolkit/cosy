@@ -78,7 +78,7 @@ Cosy learns from billions of lines of high-quality and open-source code with per
 
 ### Immersed Development
 
-Open source code snippet and document search help you find what you need just in your IDE, provides your immersed development experience. 
+Open source code snippet and document search help you find what you need just in your IDE, provide your immersed development experience. 
 
 ### Lightweight
 
