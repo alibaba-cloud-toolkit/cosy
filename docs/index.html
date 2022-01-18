@@ -10,16 +10,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="css/index.css">
+  <script>
+    var locateLang = (navigator.language || navigator.browserLanguage).toLowerCase();
+    // locateLang = "en-us";
+    if (locateLang != 'zh-cn') {
+      document.title = "Aliabab Cloud AI Coding Assistant Document";
+      var metas = document.getElementsByTagName('meta'); 
+      for (var i = 0; i < metas.length; i++) {
+        let meta = metas[i];
+        if (meta.name == "keywords") {
+          meta.content = "cosy,code completion,code search,code sample search,copilot,code suggest";
+        } else if (meta.name == "description") {
+          meta.content = "Alibaba Cloud AI Coding Assistant is an AI programming assistant that provides intelligent code completion and code search capabilities to help you write high-quality code faster and more efficiently.";
+        }
+      } 
+    }
+  </script>
 </head>
 <body>
   <div id="app"></div>
   <script>
-    let locateLang = (navigator.language || navigator.browserLanguage).toLowerCase(); 
     console.log("locateLang:" + locateLang);
     if (locateLang != 'zh-cn') {
       locateLang = "en-us";
     }
-    // locateLang = "en-us";
     window.$docsify = {
       logo: 'media/logo.svg',
       name: 'Cosy Documents',
