@@ -35,11 +35,17 @@
 
 #### **离线包安装**
 
-1. 复制链接 <a href="https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip" download=“download”>https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip</a> 至新窗口页即可下载，或通过[Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases)下载。
-2. 在IntelliJ IDEA顶部菜单栏中选择**IntelliJ IDEA** > **Preferences**。
-3. 在**Preferences**对话框的左侧导航栏中单击**Plugins**。
-4. 在**Plugins**区域单击**Settings Icon**，再单击**Install Plugin from Disk**。
-5. 在**Choose Plugin File**对话框中选择步骤1中下载的cosy-intellij-beta-latest.zip，安装完成后，单击**Restart IDE**。
+提供以下两种离线包，你可以直接点击下载或通过[Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases)下载：
+
+* 轻量包：<a href="https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip" download=“download”>https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip</a>
+* All-In-One包：<a href="http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip" download=“download”>http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip</a>
+
+安装方式：
+
+1. 在IntelliJ IDEA顶部菜单栏中选择**IntelliJ IDEA** > **Preferences**。
+2. 在**Preferences**对话框的左侧导航栏中单击**Plugins**。
+3. 在**Plugins**区域单击**Settings Icon**，再单击**Install Plugin from Disk**。
+4. 在**Choose Plugin File**对话框中选择步骤1中下载的cosy-intellij-beta-latest.zip，安装完成后，单击**Restart IDE**。
 ![image](https://img.alicdn.com/imgextra/i3/O1CN01hzRLdp1LACysYVSiN_!!6000000001258-2-tps-1958-616.png)
 
 <!-- tabs:end -->

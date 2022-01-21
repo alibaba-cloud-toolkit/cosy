@@ -35,11 +35,17 @@ Sorry, your browser does not support direct installation. Please try installing 
 
 #### **Offline Package Installation**
 
-1. Copy the link <a href="https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip" download=“download”>https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip</a> to the new window page to download, or download from [Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases) .
-2. Select **IntelliJ IDEA** > **Preferences** in the IntelliJ IDEA top menu bar.
-3. Click **Plugins** in the left navigation bar of the **Preferences** page.
-4. Click the **Settings** Icon in the **Plugins** area, and then click **Install Plugin from Disk....**
-5. In the **Choose Plugin File** dialog box, select the **cosy-intellij-beta-latest.zip** downloaded in step 1. After the installation is complete, click **Restart IDE**. 
+Provide two offline packages, you can directly click to download or download through [Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases):
+
+* Lightweight package: https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip
+* All-In-One package: http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip
+
+Installation method:
+
+1. Select **IntelliJ IDEA** > **Preferences** in the IntelliJ IDEA top menu bar.
+2. Click **Plugins** in the left navigation bar of the **Preferences** page.
+3. Click the **Settings** Icon in the **Plugins** area, and then click **Install Plugin from Disk....**
+4. In the **Choose Plugin File** dialog box, select the **cosy-intellij-beta-latest.zip** downloaded in step 1. After the installation is complete, click **Restart IDE**. 
 ![image](https://img.alicdn.com/imgextra/i3/O1CN01hzRLdp1LACysYVSiN_!!6000000001258-2-tps-1958-616.png)
 
 <!-- tabs:end -->
