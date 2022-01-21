@@ -38,7 +38,7 @@
 提供以下两种离线包，你可以直接点击下载或通过[Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases)下载：
 
 * 轻量包：<a href="https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip" download="download">https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip</a>
-* All-In-One包：<a href="http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip" download="download">http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip</a>
+* All-In-One包：<a href="https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip" download="download">https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip</a>
 
 安装方式：
 

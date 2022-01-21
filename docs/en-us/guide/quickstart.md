@@ -38,7 +38,7 @@ Sorry, your browser does not support direct installation. Please try installing 
 Provide two offline packages, you can directly click to download or download through [Github Release](https://github.com/alibaba-cloud-toolkit/cosy/releases):
 
 * Lightweight package: <a href="https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip" download="download">https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest.zip</a>
-* All-In-One package: <a href="http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip" download="download">http://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip</a>
+* All-In-One package: <a href="https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip" download="download">https://toolkit.aliyun.com/idea/cosy-intellij-beta-latest-all-in-one.zip</a>
 
 Installation method:
 
