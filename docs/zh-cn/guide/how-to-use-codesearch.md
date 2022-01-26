@@ -7,10 +7,12 @@
 - 已在IntelliJ IDEA中安装和配置Alibaba Cloud AI Coding Assistant，[如何安装](zh-cn/guide/quickstart.md)。
 - 系统要求：Windows 10/Mac OS/Linux
 
-## 通过自然语言搜索
+## 通过功能描述搜索
 
 当开发者需要实现不熟悉的功能模块时，通常会通过通用搜索引擎去查找相关的开源方案，但是由于通用搜索引擎提供的结果质量参差不齐，并且无法直接从结果页的标题中快速判断是否是自己需要资料，影响了开发者的查找效率。Cosy为开发者提供了自然语言搜索能力，开发者能通过对功能的文字描述，快速的查找到相关功能的开源实现。
 
+- 支持中文自然语言搜索
+  - 在搜索框中输入功能描述，如“读取Excel”、“快速排序”等，敲击回车触发，即可搜索到所需的代码示例
 - 支持英文自然语言搜索
   - 在搜索框中输入功能描述，如How to read excel，敲击回车触发，即可搜索到用于 ***读取Excel*** 的代码示例
   - 在搜索框中输入简短关键词，如oss download file，敲击回车触发，即可搜索到用于 ***OSS下载文件*** 的代码示例
@@ -58,6 +60,6 @@ Cosy为开发者提供了API代码示例的查找能力，开发者只需输入A
 
 [code-search-demo.mp4](https://cosy-aliyun.oss-cn-hangzhou.aliyuncs.com/code-search-demo.mp4 ':include :size=500')
 
-### 通过自然语言搜索
+### 通过功能描述搜索
 
 [code-search-demo.mp4](https://aliyun-cosy.oss-cn-hangzhou.aliyuncs.com/cosy_search_demo.mp4 ':include :size=500')
