@@ -35,6 +35,6 @@ We guarantee that the above data are owned by you or your company. Alibaba Cloud
 * We will not disclose any of the above data to third parties without your permission.
 * We only use the above data to the extent authorized by you.
 
-If you have any questions, suggestions, or complaints about this description, you can contact us through [Alibaba Cloud's work order, suggestion submission platform](https://connect.aliyun.com/), or customer service number (95187), and we will respond to your request within 15 days.
+If you have any questions, suggestions, or complaints about this description, you can contact us through [Alibaba Cloud's Tickets, suggestion submission platform](https://connect.aliyun.com/), or customer service number (95187), and we will respond to your request within 15 days.
 
 Alibaba Cloud AI Coding Assistant Project Team
