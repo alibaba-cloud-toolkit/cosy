@@ -2,7 +2,7 @@
 name: Bug report（缺陷）
 about: 描述您遇到的问题
 title: "[BUG]"
-labels: ''
+labels: ["bug"]
 assignees: liulhdarks, HaoboGu, zxdxjtu, Yuyang105, effynku
 
 ---
