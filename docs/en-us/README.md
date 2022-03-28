@@ -45,7 +45,7 @@ Currently supports Java, more languages versions will come soon.
 
 ## System Requirements
 
-1. Windows 10/Mac OS/Linux
+1. Windows 7 or later/Mac OS/Linux
 2. IDEA IntelliJ 2019.2 +
 
 ## Contact Us

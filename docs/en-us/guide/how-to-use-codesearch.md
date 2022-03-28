@@ -5,7 +5,7 @@ Alibaba Cloud AI Coding Assistant provides a code search function of the API as 
 ## Requirements
 
 - Alibaba Cloud AI Coding Assistant has been installed and configured in IntelliJ IDEA, see [Install Plug-in](en-us/guide/quickstart.md)。
-- System requirements: Windows 10/Mac OS/Linux
+- System requirements: Windows 7 or later/Mac OS/Linux
 
 ## Search by functional description
 

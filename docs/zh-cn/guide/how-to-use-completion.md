@@ -11,7 +11,7 @@
 ## 前提条件
 
 - 已在IntelliJ IDEA中安装和配置Alibaba Cloud AI Coding Assistant，请参见[如何安装](zh-cn/guide/quickstart.md)。
-- 系统要求：Windows 10/Mac OS/Linux
+- 系统要求：Windows 7及以上/Mac OS/Linux
 
 
 ## 支持语言

@@ -47,7 +47,7 @@
 
 ## 系统要求
 
-1. Windows 10/Mac OS/Linux
+1. Windows 7及以上/Mac OS/Linux
 2. IDEA IntelliJ 2020.1 +
 
 ## 联系我们
@@ -104,7 +104,7 @@ Java, other languages are upcoming
 
 ## Requirements
 
-1. Windows 10/Mac OS/Linux
+1. Windows 7 or later/Mac OS/Linux
 2. IDEA IntelliJ 2020.1 +
 
 ## Contact Us
