@@ -1,8 +1,8 @@
 ---
 name: Feature Request（需求）
 about: 描述您的需求和想法
-title: "[FEAT]"
-labels: ''
+title: ""
+labels: ['feature request']
 assignees: liulhdarks, HaoboGu, zxdxjtu, Yuyang105, effynku
 
 ---
