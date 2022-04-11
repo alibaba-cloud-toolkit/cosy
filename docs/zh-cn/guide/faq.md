@@ -15,7 +15,7 @@ A：代码示例搜索必须在联网的状态下使用。
 
 ### Q：代码搜索无结果怎么办？
 
-A：您可以选择按照如下步骤进行自我排查：
+A：您可以选择按照如下步骤进行自助排查：
 
 1. Cosy搜索服务目前是依赖网络访问的，请检查本地网络环境，确认是否可以连通外网。可以尝试ping codeup.cn-hangzhou.aliyuncs.com 查看网络连通性。
 
@@ -24,3 +24,7 @@ A：您可以选择按照如下步骤进行自我排查：
 3. 查看日志文件 cosy.log，确认Cosy进程是否正常，根据日志信息重启IDEA（Mac用户：~/.cosy/logs，Windows用户：C盘/用户/[用户名]/.cosy/logs）
 
 4. 以上还是不能解决，请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息联系我们，我们会第一时间为你排查。
+
+### Q: 代码补全无结果怎么办？
+
+A：请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息或加入[钉钉用户群](稚酣🐨 invites you to join DingTalk group chat 阿里云智能编码插件内测用户群, please click to see details. https://h5.dingtalk.com/circle/healthCheckin.html?dtaction=os&corpId=dingc5c1c8e7c328ad4e883b3bd722e90a8c&54de2a8c-e74a-4=16c4441b-9a75-4&cbdbhh=qwertyuiop)联系我们，我们会第一时间为你排查。
