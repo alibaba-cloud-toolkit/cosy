@@ -27,4 +27,4 @@ A：您可以选择按照如下步骤进行自助排查：
 
 ### Q: 代码补全无结果怎么办？
 
-A：请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息或加入[钉钉用户群](稚酣🐨 invites you to join DingTalk group chat 阿里云智能编码插件内测用户群, please click to see details. https://h5.dingtalk.com/circle/healthCheckin.html?dtaction=os&corpId=dingc5c1c8e7c328ad4e883b3bd722e90a8c&54de2a8c-e74a-4=16c4441b-9a75-4&cbdbhh=qwertyuiop)联系我们，我们会第一时间为你排查。
+A：请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息或加入[钉钉用户群](https://h5.dingtalk.com/circle/healthCheckin.html?dtaction=os&corpId=dingc5c1c8e7c328ad4e883b3bd722e90a8c&54de2a8c-e74a-4=16c4441b-9a75-4&cbdbhh=qwertyuiop)联系我们，我们会第一时间为你排查。
