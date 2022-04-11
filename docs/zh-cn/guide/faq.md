@@ -21,7 +21,7 @@ A：您可以选择按照如下步骤进行自助排查：
 
 2. Cosy搜索请求会进行基础安全校验，请检查本地系统时间是否正确，避免因为请求时间戳异常而被错误拦截。
 
-3. 查看日志文件 cosy.log，确认Cosy进程是否正常，根据日志信息重启IDEA（Mac用户：~/.cosy/logs，Windows用户：C盘/用户/[用户名]/.cosy/logs）
+3. 查看日志文件 cosy.log，确认Cosy进程是否正常，根据日志信息重启IDEA（Mac用户：`~/.cosy/logs`，Windows用户：`C盘/用户/[用户名]/.cosy/logs`）
 
 4. 以上还是不能解决，请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息联系我们，我们会第一时间为你排查。
 
