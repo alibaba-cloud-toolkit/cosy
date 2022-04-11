@@ -23,4 +23,4 @@ A：您可以选择按照如下步骤进行自我排查：
 
 3. 查看日志文件 cosy.log，确认Cosy进程是否正常，根据日志信息重启IDEA（Mac用户：~/.cosy/logs，Windows用户：C盘/用户/[用户名]/.cosy/logs）
 
-4. 以上还是不能解决，请上传日志信息直接戳我们， (GitHub Issue链接...) 🙇‍♂️
+4. 以上还是不能解决，请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息联系我们，我们会第一时间为你排查。
