@@ -10,9 +10,9 @@
 
 [了解更多](https://alibaba-cloud-toolkit.github.io/cosy/#/zh-cn/guide/how-to-use-completion)
 
-### 代码示例搜索
+### 代码文档搜索
 
-提供API代码示例搜索功能，让你在面对不熟悉的API时，无需跳出到浏览器中，在IDE内即可参考海量高质量的开源API代码示例，为你打造沉浸式编码体验。
+提供代码示例和代码文档搜索功能，当你需要实现不熟悉的功能时，无需跳出到浏览器中，在IDE内仅需通过简单的语言描述，即可参考海量高质量的开源参考信息，为你打造沉浸式编码体验。
 
 [了解更多](https://alibaba-cloud-toolkit.github.io/cosy/#/zh-cn/guide/how-to-use-codesearch)
 
