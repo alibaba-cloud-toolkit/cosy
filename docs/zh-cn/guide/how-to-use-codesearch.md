@@ -80,8 +80,12 @@ Cosy进行了更友好的本土化支持，可以补全联想中文搜索语句�
 
 ### 通过API名称搜索
 
-[code-search-demo.mp4](https://cosy-aliyun.oss-cn-hangzhou.aliyuncs.com/code-search-demo.mp4 ':include :size=500')
+[code-search-demo.mp4](https://aliyun-cosy.oss-cn-hangzhou.aliyuncs.com/cosy-api-search.mp4 ':include :size=500')
 
 ### 通过功能描述搜索
 
-[code-search-demo.mp4](https://aliyun-cosy.oss-cn-hangzhou.aliyuncs.com/cosy_search_demo.mp4 ':include :size=500')
+[code-search-demo.mp4](https://aliyun-cosy.oss-cn-hangzhou.aliyuncs.com/cosy-two-sum.mp4 ':include :size=500')
+
+### 通过控制台搜索
+
+[code-search-demo.mp4](https://aliyun-cosy.oss-cn-hangzhou.aliyuncs.com/cosy-console-search.mp4 ':include :size=500')
