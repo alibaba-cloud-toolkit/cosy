@@ -40,7 +40,7 @@ Cosy为开发者提供了API代码示例的查找能力，开发者只需输入A
 
 开发者可以在编码过程中通过鼠标右键选中当前类/接口/方法，然后点击 ***查找代码示例*** 即可一键搜索指定API的代码示例片段。开发者也可以通过快捷键 MacOS `command+shift+s` 或 Windows `ctrl+shift+s` 搜索指定API。
 
-![search_menu_example](https://img.alicdn.com/imgextra/i1/O1CN01RWpukk1HsOkwovIMx_!!6000000000813-2-tps-1500-713.png ':size=300')
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01RWpukk1HsOkwovIMx_!!6000000000813-2-tps-1500-713.png" width="80%">
 
 ### 1. 多API精准搜索
 开发者可以通过点击右侧菜单栏中的 `代码示例搜索` 唤起搜索工具窗，手动输入API名称进行代码示例搜索，支持的API名称格式如下：
@@ -56,23 +56,21 @@ Cosy为开发者提供了API代码示例的查找能力，开发者只需输入A
   - 如：XSSFWorkbook.create能搜出以其为前缀的XSSFWorkbook.createSheet、XSSFWorkbook.createFont、XSSFWorkbook.createCellStyle等
 - 包名+类名/接口名+方法名，包名+枚举名+属性名
 
-![search_example](https://img.alicdn.com/imgextra/i4/O1CN013imptb1fSnOHXr9Mx_!!6000000004006-2-tps-1668-350.png ':size=500')
+<img src="https://img.alicdn.com/imgextra/i4/O1CN013imptb1fSnOHXr9Mx_!!6000000004006-2-tps-1668-350.png" width="80%">
 
 ### 2. 自然语言搜索
 我们也支持使用功能描述进行代码片段/代码文档搜索，Cosy会自动联想我们的查询语句，如：
 
-![search_example](https://img.alicdn.com/imgextra/i4/O1CN01M2iMqj1DM6MRNheJI_!!6000000000201-2-tps-1500-603.png ':size=500')
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01M2iMqj1DM6MRNheJI_!!6000000000201-2-tps-1500-603.png" width="80%">
 
 Cosy进行了更友好的本土化支持，可以补全联想中文搜索语句的同时，还能使用中文搜索中英文代码文档：
 
-![search_example](https://img.alicdn.com/imgextra/i3/O1CN01Db2Mdm1xoTDiBulGr_!!6000000006490-2-tps-1500-674.png ':size=500')
-
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01Db2Mdm1xoTDiBulGr_!!6000000006490-2-tps-1500-674.png" width="80%">
 
 ### 3. 组合搜索
 开发者可以在功能描述的基础上，进一步通过API精准搜索限定使用的第三方组件库，比如：
 
-![search_example](https://img.alicdn.com/imgextra/i1/O1CN01teTEC31jmj5hNq0rO_!!6000000004591-2-tps-1226-698.png ':size=500')
-
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01teTEC31jmj5hNq0rO_!!6000000004591-2-tps-1226-698.png" width="80%">
 
 ## 支持语言
 
