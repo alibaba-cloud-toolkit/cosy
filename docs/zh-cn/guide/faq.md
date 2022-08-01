@@ -1,9 +1,5 @@
 # 常见问题
 
-### Q：为什么安装之后没有代码补全提示，也搜索不到内容？
-
-A：在首次安装插件后，Cosy需要联网下载模型和依赖文件，下载完成之后才可以提供离线代码提示，因此请等待Cosy初始化完毕之后试用。如果IDE底栏中没有“正在更新阿里云智能编码插件Cosy”的提示，那么请重启IDE尝试，一般可以解决。如果仍然没有提示，那么请在https://github.com/alibaba-cloud-toolkit/cosy/issues 反馈给我们，并且附上`~/.cosy/logs/cosy.log`。
-
 ### Q: 安装之后无法使用，且每当在输入和使用Cosy搜索的时候，IDE下方状态栏都会显示【正在更新阿里云智能编码助手 Cosy】
 
 A：这是由于我们上游依赖数据库的一个bug导致。你可以按照如下步骤尝试修复：
@@ -42,3 +38,7 @@ Unable to serve local completion, exit status: 0xc0000135
 的日志，说明可能是本地没有安装.NET框架，或者某些dll依赖找不到所致。您可以尝试手动打开`C盘/用户/[用户名]/.cosy/bin/版本号/x86_64_windows/cosylocal.exe`，系统会显示缺少的dll文件名。下载对应的文件到该目录即可解决。
 
 如果您是其他平台用户，或者上面的方案未能解决问题，请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息或加入[钉钉用户群](https://h5.dingtalk.com/circle/healthCheckin.html?dtaction=os&corpId=dingc5c1c8e7c328ad4e883b3bd722e90a8c&54de2a8c-e74a-4=16c4441b-9a75-4&cbdbhh=qwertyuiop)联系我们，我们会第一时间为你排查。
+
+### Q：为什么安装之后没有代码补全提示，也搜索不到内容？
+
+A：在首次安装插件后，Cosy需要联网下载模型和依赖文件，下载完成之后才可以提供离线代码提示，因此请等待Cosy初始化完毕之后试用。如果IDE底栏中没有“正在更新阿里云智能编码插件Cosy”的提示，那么请重启IDE尝试，一般可以解决。如果仍然没有提示，那么请在https://github.com/alibaba-cloud-toolkit/cosy/issues 反馈给我们，并且附上`~/.cosy/logs/cosy.log`。
