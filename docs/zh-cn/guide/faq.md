@@ -27,7 +27,9 @@ A：您可以选择按照如下步骤进行自助排查：
 
 3. 查看日志文件 cosy.log，确认Cosy进程是否正常，根据日志信息重启IDEA（Mac用户：`~/.cosy/logs`，Windows用户：`C盘/用户/[用户名]/.cosy/logs`）
 
-4. 以上还是不能解决，请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息联系我们，我们会第一时间为你排查。
+4. 检查本地Host，是否有 `127.0.0.1 localhost`，如果没有则需要添加
+
+5. 以上还是不能解决，请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息联系我们，我们会第一时间为你排查。
 
 ### Q: 代码补全无结果怎么办？
 
