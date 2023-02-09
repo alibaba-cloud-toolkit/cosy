@@ -30,7 +30,8 @@ A：如果你是Windows用户，可以检查`C盘/用户/[用户名]/.cosy/logs/
 ```
 Unable to serve local completion, exit status: 0xc0000135 
 ```
-的日志，说明可能是本地没有安装.NET框架，或者某些dll依赖找不到所致。您可以尝试手动打开`C盘/用户/[用户名]/.cosy/bin/版本号/x86_64_windows/cosylocal.exe`，系统会显示缺少的dll文件名。下载对应的文件到该目录即可解决。
+的日志，说明可能是本地没有安装.NET框架，或者某些dll依赖找不到所致。您可以尝试从[http://toolkit.aliyun.com/idea/x86_64_windows_require_dll.zip](http://toolkit.aliyun.com/idea/x86_64_windows_require_dll.zip)下载缺失的DLL，如果无法解决，您可以尝试手动打开`C盘/用户/[用户名]/.cosy/bin/版本号/x86_64_windows/cosylocal.exe`，系统会显示缺少的dll文件名。下载对应的文件到该目录即可解决。
+
 
 如果您是其他平台用户，或者上面的方案未能解决问题，请在[GitHub Issues](https://github.com/alibaba-cloud-toolkit/cosy/issues)中上传日志信息或加入[钉钉用户群](https://h5.dingtalk.com/circle/healthCheckin.html?dtaction=os&corpId=dingc5c1c8e7c328ad4e883b3bd722e90a8c&54de2a8c-e74a-4=16c4441b-9a75-4&cbdbhh=qwertyuiop)联系我们，我们会第一时间为你排查。
 
