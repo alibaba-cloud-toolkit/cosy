@@ -3,7 +3,7 @@ After installing the Alibaba Cloud AI Coding Assistant in your IntelliJ IDEA, yo
 # Get Ready
 
 - JDK1.8 or higher
-- IntelliJ IDEA (2020.1 or later)
+- IntelliJ IDEA (2020.3 or later)
 
 # Installation
 
