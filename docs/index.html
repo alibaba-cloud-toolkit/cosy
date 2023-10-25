@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="css/index.css">
   <script>
+    window.location.href = "https://tongyi.aliyun.com/lingma";
     var locateLang = (navigator.language || navigator.browserLanguage).toLowerCase();
     // locateLang = "en-us";
     if (locateLang != 'zh-cn') {
@@ -19,9 +20,9 @@
       for (var i = 0; i < metas.length; i++) {
         let meta = metas[i];
         if (meta.name == "keywords") {
-          meta.content = "cosy,code completion,code search,code sample search,copilot,code suggest";
+          meta.content = "tongyi,tongyi lingma,cosy,code completion,code search,code sample search,copilot,code suggest";
         } else if (meta.name == "description") {
-          meta.content = "Alibaba Cloud AI Coding Assistant is an AI programming assistant that provides intelligent code completion and code search capabilities to help you write high-quality code faster and more efficiently.";
+          meta.content = "阿里云智能编码插件品牌升级为通义灵码，欢迎查看通义灵码帮助手册]，同时也期待你在 IDE 客户端中将插件升级，我在通义灵码等你，一起开启智能编码之旅。";
         }
       } 
     }
@@ -30,6 +31,7 @@
 <body>
   <div id="app"></div>
   <script>
+    window.location.href = "https://tongyi.aliyun.com/lingma";
     console.log("locateLang:" + locateLang);
     if (locateLang != 'zh-cn') {
       locateLang = "en-us";
